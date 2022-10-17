@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     let buttons = document.getElementsByTagName("button");
 
-    //could have used (let i = 0; i < buttons.length; i++)
+    //could have used (let i = 0; i < buttons.length; i++), allows us to iterate the array of buttons
     for(let button of buttons) {
         //adding button listner and giving each button a function to execute.
         button.addEventListener("click", function () {
